@@ -83,6 +83,11 @@ input[type="checkbox"] {
   appearance: none;
   cursor: pointer;
   transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+  -o-transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
 }
 input[type="checkbox"]::before {
   position: absolute;
@@ -97,6 +102,9 @@ input[type="checkbox"]::before {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   opacity: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 input[type="checkbox"]:checked {
   color: white;
