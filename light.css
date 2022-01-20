@@ -10,11 +10,13 @@ main {
   background-color: #fff;
  box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
  border:1px solid #f2f2f2;
+  -webkit-box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
 }
 .bottom-div {
   background-color: #fff;
  box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
  border:1px solid #f2f2f2;
+  -webkit-box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
 }
 .close {
   color: #000;
