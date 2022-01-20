@@ -1,0 +1,29 @@
+main {
+  color: #fff;
+  background-image: url(./images/bg-desktop-dark.jpg);
+  background-color: #292b3a;
+}
+.todo-list-items li {
+  border-bottom: 1px solid gray;
+}
+.form input {
+  color: #fff;
+  background-color: #484b6a;
+}
+.main-div {
+  background-color: #484b6a;
+}
+.bottom-div {
+  background-color: #484b6a;
+}
+.close {
+  color: #fff;
+}
+.darkImage{
+  display: none;
+}
+@media (max-width:425px) {
+  main{
+    background-image: url(./images/bg-mobile-dark.jpg);
+  }
+}
