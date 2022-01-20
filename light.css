@@ -1,0 +1,32 @@
+main {
+  color: #000;
+  background-image: url(./images/bg-desktop-light.jpg);
+}
+.form input {
+  color: #000;
+  background-color: #fff;
+}
+.main-div {
+  background-color: #fff;
+ box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
+ border:1px solid #f2f2f2;
+}
+.bottom-div {
+  background-color: #fff;
+ box-shadow: 35px 164px 202px 0px rgb(228 233 207 / 47%);
+ border:1px solid #f2f2f2;
+}
+.close {
+  color: #000;
+}
+.main-div-bottom {
+  color: #898a8f;
+}
+.lightImage{
+  display: none;
+}
+@media (max-width:425px) {
+  main{
+    background-image: url(./images/bg-mobile-light.jpg);
+  }
+}
