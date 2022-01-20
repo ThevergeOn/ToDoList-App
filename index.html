@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- for change light and dark theme and the background -->
+    <main class="light-theme dark-theme">
+      <section>
+        <!-- header of todo list -->
+        <div class="top-div-header">
+          <h1>TODO</h1>
+          <div id="theme-icon">
+            <img src="./images/moon.svg" alt="moon" class="darkImage">
+            <img src="./images/sun-fill.svg" alt="sun" class="lightImage" />
+          </div>
+        </div>
+        <!-- input to add task for todo list -->
+        <div class="form">
+          <input
+            id="myInput"
+            class="inputValue"
+            type="text"
+            placeholder="Creat a new todo..."
+          />
+        </div>
+        <!-- task of todo list -->
+        <div class="main-div">
+          <ul class="todo-list-items" id="ul-list">
+          
+          </ul>
+          <div class="main-div-bottom">
+            <a><span id="left-item"> 0 </span> items left</a>
+            <a class="format">Clear Completed</a>
+          </div>
+        </div>
+        <!-- tabs for active compeleted and all -->
+        <ul class="bottom-div">
+          <li id="all">
+            <a class="cursor">All</a>
+          </li>
+          <li id="active">
+            <a class="cursor">Active</a>
+          </li>
+          <li id="completed">
+            <a class="cursor">Completed</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
